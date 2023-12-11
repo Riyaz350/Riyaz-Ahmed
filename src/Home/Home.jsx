@@ -1,7 +1,13 @@
 import Navbar from "../Shared/Navbar";
 import '../App.css'
+import {  Cursor, Typewriter } from 'react-simple-typewriter'
+import cv from '../assets/CV.pdf'
+
 
 const Home = () => {
+    const btnCV = "btn bg-white text-[#f71735] hover:bg-[#f71735] hover:text-white hover:border-2 hover:border-white"
+
+
     return (
         <div>
             <div>
@@ -10,12 +16,22 @@ const Home = () => {
             <div className="">
                 {/* <video src={bg} autoPlay loop/> */}
                 {/* <img src={bg} /> */}
-                <div  className="backGround bg-cover min-h-screen h-fit grid grid-cols-2  items-center">
+                <div  className="backGround bg-cover pt-20 h-fit grid grid-cols-2  items-center">
+                    <div className=" flex gap-10  flex-col justify-center items-start mx-auto text-white font-bold">
+                    <h1 className="text-6xl">Hi, I am Riyaz Ahmed</h1>
+                    <h1 className="flex gap-2 text-3xl">
+                        <h1>I am a</h1>
+                        <Typewriter    words={['Front End Web Developer']}
+/>
+                        <Cursor/>
+                    </h1>
                     <div>
-                    <h1 className="text-6xl font-bold text-white text-center">Riyaz Ahmed</h1>
+                    <a className={btnCV} href={cv} download="resume">Download Resume</a>
                     </div>
-                    <div>
-                    <img src="https://i.ibb.co/sydntNx/IMG-20221119-163215-02-removebg-preview.png" className="bottom-0 w-full" alt="" />
+                    </div>
+
+                    <div className="flex justify-center">
+                    <img src="https://i.ibb.co/8zPqgMX/1702298147202-fotor-20231211183931-removebg-preview.png" className="" alt="" />
                     </div>
                 </div>
 
