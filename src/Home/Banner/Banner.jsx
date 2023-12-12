@@ -1,5 +1,5 @@
 import { Cursor, Typewriter } from "react-simple-typewriter";
-import cv from '../../assets/CV.pdf'
+// import cv from '../../assets/CV.pdf'
 import '../../App.css'
 import { motion } from "framer-motion"
 
@@ -19,7 +19,7 @@ const Banner = () => {
                         <Cursor/>
                     </div>
                     <div>
-                    <a className={btnCV} href={cv} download="resume">Download Resume</a>
+                    <a className={btnCV} href='https://drive.google.com/uc?export=download&id=1I-bQkFUkM0km6OuuFeMY7coXJleRLJhF' download="resume">Download Resume</a>
                     </div>
             </div>
 

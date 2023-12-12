@@ -1,6 +1,5 @@
 import Navbar from "../Shared/Navbar";
 import '../App.css'
-import {  Cursor, Typewriter } from 'react-simple-typewriter'
 import Intro from "./Intro/Intro";
 import Title from '../Hook/Title'
 import Banner from "./Banner/Banner";
