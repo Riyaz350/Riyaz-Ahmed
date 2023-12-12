@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Intro = () => {
     return (
@@ -16,7 +17,12 @@ const Intro = () => {
                     development, employing <b className="text-[#f71735]"> Node.js</b> with the <b className="text-[#f71735]">Express.js</b>  framework 
                     for server-side applications. <b className="text-[#f71735]">MongoDB</b>  serves as my preferred 
                     database.</p>
+                    <div className="flex gap-4">
+                    <Link to='https://www.facebook.com/profile.php?id=100070946546162'><img className='w-[40px]' src="https://i.ibb.co/cvQ7SPp/icons8-linkedin.gif" alt="" /></Link>
+                    <Link to='https://www.linkedin.com/in/riyaz-ahmed-1ab2b4186/' ><img className='w-[40px]' src="https://i.ibb.co/kKN7Dy6/icons8-facebook.gif" alt="" /></Link>
+                    </div>
             </div>
+                    
         </div>
     );
 };
