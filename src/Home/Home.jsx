@@ -7,6 +7,7 @@ import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
+import Footer from "../Shared/Footer";
 
 
 const Home = () => {
@@ -49,6 +50,11 @@ const Home = () => {
                     <Title title='Contact Me' subTitle=''></Title>
                     <Contact></Contact>
                 </div>
+
+                <div>
+                    <Footer></Footer>
+                </div>
+
             </div>    
          
         </div>
