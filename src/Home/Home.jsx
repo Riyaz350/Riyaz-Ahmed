@@ -5,6 +5,7 @@ import Intro from "./Intro/Intro";
 import Title from '../Hook/Title'
 import Banner from "./Banner/Banner";
 import Skills from "./Skills/Skills";
+import Education from "./Education/Education";
 
 
 const Home = () => {
@@ -24,9 +25,15 @@ const Home = () => {
                     <Title title='Introduction' subTitle='About me'></Title>
                     <Intro></Intro>
                 </div>
+
                 <div className="my-10">
                     <Title title='My Skills' subTitle=''></Title>
                     <Skills></Skills>
+                </div>
+
+                <div className="my-10">
+                    <Title title='Education' subTitle=''></Title>
+                    <Education></Education>
                 </div>
             </div>    
          
