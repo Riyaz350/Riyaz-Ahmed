@@ -10,8 +10,8 @@ const Projects = () => {
     const pill = "bg-[#f71735] w-fit p-2 text-white rounded-lg"
     const links = "bg-white text-sm lg:text-base  text-[#f71735] border-2 border-[#f71735] p-2 rounded-lg hover:bg-[#f71735] hover:text-white lg:w-1/4 flex justify-center items-center lg:gap-2"
     return (
-        <div className="max-w-5xl mx-auto p-10 lg:p-0 my-10 space-y-10 lg:space-y-0">
-            
+        <div  className="max-w-5xl mx-auto p-10 lg:p-0 my-10 space-y-10 lg:space-y-0">
+
             <div className="md:grid grid-cols-5">
                 <div className="col-span-2"></div>
                 <div className="col-span-3">

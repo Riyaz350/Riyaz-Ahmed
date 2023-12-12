@@ -1,14 +1,18 @@
 import { NavLink } from 'react-router-dom';
 import '../App.css'
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
-    // const active = 'btn font-bold bg-[#1e1e24] border-2 lg:w-auto w-full border-[#FFDDB6] text-[#FFDDB6] rounded-lg hover:bg-[#FFDDB6] hover:text-[#92140c] hover:border-[#FFDDB6]'
-    // const inActive = 'btn bg-[#f71735] text-white border-2 lg:w-auto w-full border-[#FFDDB6] rounded-lg hover:bg-[#92140c] hover:border-[#FFDDB6] hover:text-[#FFDDB6]'
 
     const navLinks = 
     < div className=" z-10 flex flex-col lg:flex-row items-center gap-6 space-y-1">
-      <NavLink className={({ isActive, isPending,  }) =>isPending ? "pending" : isActive ? "active" : "inActive"} to="/">Home</NavLink>
-      <NavLink className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "active" : "inActive"} to="/projects">Projects</NavLink>
+      <Link className={ "inActive" } to="banner" spy={true} smooth={true} duration={250}>Home</Link>
+      <Link className={ "inActive" } to="intro" spy={true} smooth={true} duration={250}>Introduction</Link>
+      <Link className={ "inActive" } to="skills" spy={true} smooth={true} duration={250}>Skills</Link>
+      <Link className={ "inActive" } to="education" spy={true} smooth={true} duration={250}>Education</Link>
+      <Link className={ "inActive" } to="projects" spy={true} smooth={true} duration={250}>Projects</Link>
+      <Link className={ "inActive" } to="contact" spy={true} smooth={true} duration={250}>Contact</Link>
     </div>
     return (
         <div className=" navbar justify-between bg-black bg-opacity-30 fixed">

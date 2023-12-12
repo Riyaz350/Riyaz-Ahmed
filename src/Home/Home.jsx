@@ -10,6 +10,7 @@ import Contact from "./Contact/Contact";
 
 
 const Home = () => {
+    
 
 
     return (
@@ -20,29 +21,31 @@ const Home = () => {
             <div className="">
                 {/* <video src={bg} autoPlay loop/> */}
                 {/* <img src={bg} /> */}
+                <div id="banner">
                 <Banner></Banner>
+                </div>
 
-                <div className="my-10">
+                <div id="intro" className="my-10">
                     <Title title='Introduction' subTitle='About me'></Title>
                     <Intro></Intro>
                 </div>
 
-                <div className="my-10">
+                <div id="skills" className="my-10">
                     <Title title='My Skills' subTitle=''></Title>
                     <Skills></Skills>
                 </div>
 
-                <div className="my-10">
+                <div id="education" className="my-10">
                     <Title title='Education' subTitle=''></Title>
                     <Education></Education>
                 </div>
 
-                <div className="my-10">
+                <div id="projects" className="my-10">
                     <Title title='My Projects' subTitle=''></Title>
                     <Projects></Projects>
                 </div>
 
-                <div className="my-10">
+                <div id="contact" className="my-10">
                     <Title title='Contact Me' subTitle=''></Title>
                     <Contact></Contact>
                 </div>
