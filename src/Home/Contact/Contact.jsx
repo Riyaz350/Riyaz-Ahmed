@@ -34,7 +34,7 @@ const Contact = () => {
                     {/* <a target="_blank" href="https://icons8.com/icon/2FxDGcmY6mE9/letter">Email</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
                     <div className='flex gap-2 items-center justify-center lg:justify-start '><img className='w-fit' src="https://i.ibb.co/K9G5Cw5/icons8-address.gif" alt="" /><p>Address: Brahmanbaria, Bangladesh</p></div>
                     {/* <a target="_blank" href="https://icons8.com/icon/YKWkIGwDeMJg/address">Address</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
-                    <div className='flex gap-2 items-center justify-center lg:justify-start'><img className='w-fit' src="https://i.ibb.co/MNL6VT3/icons8-call.gif" alt="" /><p>Phone: +880724439967</p></div>
+                    <div className='flex gap-2 items-center justify-center lg:justify-start'><img className='w-fit' src="https://i.ibb.co/MNL6VT3/icons8-call.gif" alt="" /><p>Phone: +8801724439967</p></div>
                     {/* <a target="_blank" href="https://icons8.com/icon/uiCge755lurb/phonelink-ring">Call</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
                 </div>
             </div>
