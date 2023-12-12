@@ -7,6 +7,7 @@ import Banner from "./Banner/Banner";
 import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
+import Contact from "./Contact/Contact";
 
 
 const Home = () => {
@@ -40,6 +41,11 @@ const Home = () => {
                 <div className="my-10">
                     <Title title='My Projects' subTitle=''></Title>
                     <Projects></Projects>
+                </div>
+
+                <div className="my-10">
+                    <Title title='Contact Me' subTitle=''></Title>
+                    <Contact></Contact>
                 </div>
             </div>    
          
