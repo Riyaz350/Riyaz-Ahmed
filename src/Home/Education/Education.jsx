@@ -5,7 +5,7 @@ const Education = () => {
             <ul className="steps steps-vertical">
                 <div className="step step-error"><span>Secondary School Certificate(SSC): <b className="text-[#f71735]">Annada Govt. High School</b></span></div>
                 <div className="step step-error"><span>Higher Secondary Certificate(HSC): <b className="text-[#f71735]">Brahmanbaria Govt. College</b></span></div>
-                <div className="step step-error"><span>Honors: <b className="text-[#f71735]">Brahmanbaria Govt. College</b ></span></div>
+                <div className="step step-error"><span>Honors in Mathematics (BSC): <b className="text-[#f71735]">Brahmanbaria Govt. College</b ></span></div>
             </ul>
         </div>
     );
