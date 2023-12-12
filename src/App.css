@@ -1,7 +1,6 @@
 
 .inActive {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 20px;
   background-color: #1e1e2400;
   border-bottom: 2px solid #ffffff;
   width: 100%;
@@ -16,8 +15,7 @@
   border-color: #f71735;
 }
 .active {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 20px;
   background-color: #1e1e2400;
   border-bottom: 2px solid #f71735;
   width: 100%;
@@ -39,7 +37,17 @@ video {
 }
 
 .backGround {
-  background-image: url('https://i.ibb.co/QFDmtWN/gradient.jpg');
+  /* background-image: url('https://i.ibb.co/QFDmtWN/gradient.jpg'); */
+  background: linear-gradient(90deg, rgba(247,23,53,1) 0%, rgba(0,0,0,1) 70%);
+
   background-size: cover;
 
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.afa {
+  font-family: 'Afacad', sans-serif;
 }

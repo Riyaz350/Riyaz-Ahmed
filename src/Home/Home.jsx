@@ -1,42 +1,32 @@
 import Navbar from "../Shared/Navbar";
 import '../App.css'
 import {  Cursor, Typewriter } from 'react-simple-typewriter'
-import cv from '../assets/CV.pdf'
+import Intro from "./Intro/Intro";
+import Title from '../Hook/Title'
+import Banner from "./Banner/Banner";
+import Skills from "./Skills/Skills";
 
 
 const Home = () => {
-    const btnCV = "btn bg-white text-[#f71735] hover:bg-[#f71735] hover:text-white hover:border-2 hover:border-white"
 
 
     return (
-        <div>
+        <div className="afa">
             <div>
             <Navbar></Navbar>    
             </div>  
             <div className="">
                 {/* <video src={bg} autoPlay loop/> */}
                 {/* <img src={bg} /> */}
-                <div  className="backGround bg-cover pt-20 h-fit grid grid-cols-2  items-center">
-                    <div className=" flex gap-10  flex-col justify-center items-start mx-auto text-white font-bold">
-                    <h1 className="text-6xl">Hi, I am Riyaz Ahmed</h1>
-                    <h1 className="flex gap-2 text-3xl">
-                        <h1>I am a</h1>
-                        <Typewriter    words={['Front End Web Developer']}
-/>
-                        <Cursor/>
-                    </h1>
-                    <div>
-                    <a className={btnCV} href={cv} download="resume">Download Resume</a>
-                    </div>
-                    </div>
+                <Banner></Banner>
 
-                    <div className="flex justify-center">
-                    <img src="https://i.ibb.co/8zPqgMX/1702298147202-fotor-20231211183931-removebg-preview.png" className="" alt="" />
-                    </div>
+                <div className="my-10">
+                    <Title title='Introduction' subTitle='About me'></Title>
+                    <Intro></Intro>
                 </div>
-
-                <div>
-                    <h1>hello</h1>
+                <div className="my-10">
+                    <Title title='My Skills' subTitle=''></Title>
+                    <Skills></Skills>
                 </div>
             </div>    
          
