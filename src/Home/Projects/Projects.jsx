@@ -85,7 +85,7 @@ const Projects = () => {
                     </div>
 
                     <div className="my-2 lg:my-5 flex gap-3">
-                        <Link to='https://654cd5cfb5dcf737fa94267f--superlative-lokum-c289a2.netlify.app' className={links}><RiLiveLine /><p>Live Link</p></Link>
+                        <Link to='https://65788bedeb8e3103a2b2f66e--tiny-starship-dca274.netlify.app' className={links}><RiLiveLine /><p>Live Link</p></Link>
                         <Link to='https://github.com/Riyaz350/study-hive-client' className={links}><FaGithub /><p>Client Code</p></Link>
                         <Link to='https://github.com/Riyaz350/study-hive-server' className={links}><FaGithub /><p>Server Code</p></Link>
                     </div>
